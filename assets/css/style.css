@@ -1,0 +1,33 @@
+:root {
+    --color-teal: rgb(164, 221, 235);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    background: rgb(56, 44, 44);
+}
+
+.name {
+    padding: 8px 50px;
+    font-size: 150%;
+    margin-left: 25px;
+    border-radius: 10px 20px 10px 20px;
+    background: var(--color-teal);
+}
+
+.name h1 {
+    color: green;
+}
+
+header nav {
+    display: flex;
+}
