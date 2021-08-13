@@ -147,19 +147,18 @@ main {
     position: relative;
     justify-content: center;
     align-items: center;
-    transition: .5s ease-out;
-}
-
-.big-app:hover {
-    opacity: 0.5;
-    transition: .5s ease-in;
 }
 
 .big-app img {
     width: 95%;
     height: 350px;
     border: 3px solid var(--color-mango);
-    
+    transition: .5s ease-out;
+}
+
+.big-app img:hover {
+    opacity: 0.5;
+    transition: .5s ease-in;
 }
 
 .big-app figcaption {
@@ -183,18 +182,18 @@ main {
 
 .rest-apps figure {
     position: relative;
-    transition: .5s ease-out;
-}
-
-.rest-apps figure:hover {
-    opacity: 0.5;
-    transition: .5s ease-in;
 }
 
 .rest-apps figure img {
     width: 95%;
     height: 200px;
     border: 3px solid var(--color-mango);
+    transition: .5s ease-out;
+}
+
+.rest-apps figure img:hover {
+    opacity: 0.5;
+    transition: .5s ease-in;
 }
 
 .smaller-apps figcaption {
