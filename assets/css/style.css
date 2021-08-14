@@ -247,7 +247,6 @@ main {
       display: flex;
     }
     .bottom-nav {
-      background-color: #bb8588;
     }
 }
 @media screen and (max-width: 768px) {
@@ -264,6 +263,5 @@ main {
     }
     nav,
     footer {
-      background-color: #bb8588;
     }
 }
