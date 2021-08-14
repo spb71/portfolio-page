@@ -238,15 +238,14 @@ main {
     color: red;
 }
 @media screen and (max-width: 992px) {
-    main,
-    nav {
+    main {
       flex-direction: column;
       display: flex;
     }
     header {
+      float: none;
+      width: 100%;
       display: flex;
-    }
-    .bottom-nav {
     }
 }
 @media screen and (max-width: 768px) {
@@ -256,12 +255,11 @@ main {
       display: flex;
     }
     header {
-      display: flex;
+        float: none;
+        width: 100%;
+        display: flex;
     }
     .title-tag {
         padding-right: 0;
-    }
-    nav,
-    footer {
     }
 }
