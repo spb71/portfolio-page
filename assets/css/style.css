@@ -39,6 +39,7 @@ header {
     display: flex;
     width: 110px;
     height: 100px;
+    max-width: 100%;
 }
 
 
@@ -74,7 +75,7 @@ header {
     background-size: 100% 100%;
     height: 600px;
     position: relative;
-    max-width: none;
+    max-width: 100%;
     margin-right: 0;
     display: flex;
     align-items: center;
@@ -154,6 +155,7 @@ main {
     height: 350px;
     border: 3px solid var(--color-mango);
     transition: .5s ease-out;
+    max-width: 100%;
 }
 
 .big-app img:hover {
@@ -186,6 +188,7 @@ main {
 
 .rest-apps figure img {
     width: 95%;
+    max-width: 100%;
     height: 200px;
     border: 3px solid var(--color-mango);
     transition: .5s ease-out;
@@ -233,4 +236,35 @@ main {
 
 .bottom-nav ul li a:hover {
     color: red;
+}
+@media screen and (max-width: 992px) {
+    main,
+    nav {
+      flex-direction: column;
+      display: flex;
+    }
+    header {
+      display: flex;
+    }
+    .bottom-nav {
+      background-color: #bb8588;
+    }
+}
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+      display: flex;
+    }
+    header {
+      background: #772014;
+      display: flex;
+    }
+    .title-tag {
+        padding-right: 0;
+    }
+    nav,
+    footer {
+      background-color: #bb8588;
+    }
 }
