@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project is a placeholder webpage for an eventual website which is a portfolio of all the projects that I have done until now.
+This project is a placeholder webpage for an eventual website which is a portfolio of all the projects that I have completed until now.
 
 ## Screenshots
 
