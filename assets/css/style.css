@@ -69,6 +69,9 @@ header {
     text-decoration: none;
 }
 
+.hamburger span{
+    display: none;
+}
 
 .hero {
     background: url(../images/background.jpg) no-repeat center center;
@@ -167,7 +170,7 @@ main {
     background: var(--color-mango);
     position: absolute;
     bottom: 30px;
-    width: 10%;
+    width: fit-content;
     color: var(--color-navy);
 }
 
@@ -203,7 +206,7 @@ main {
     background: var(--color-mango);
     position: absolute;
     bottom: 25px;
-    width: 20%;
+    width: fit-content;
     color: var(--color-navy);
 }
 
@@ -237,6 +240,7 @@ main {
 .bottom-nav ul li a:hover {
     color: red;
 }
+
 @media screen and (max-width: 992px) {
     main {
       flex-direction: column;
@@ -246,6 +250,20 @@ main {
       float: none;
       width: 100%;
       display: flex;
+    }
+    .profile-pic img {
+        display: none;
+    }
+    .header-nav {
+        display: none;
+    }
+    .hamburger span{
+        display: block;
+        margin:4px;
+        height: 9px;
+        width:60px;
+        background: #d3531a;
+        border-radius: 9px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -259,7 +277,38 @@ main {
         width: 100%;
         display: flex;
     }
+    .profile-pic img {
+        display: none;
+    }
     .title-tag {
         padding-right: 0;
+    }
+    .header-nav {
+        display: none;
+    }
+    .hamburger span{
+        display: block;
+        margin:4px;
+        height: 9px;
+        width:60px;
+        background: #d3531a;
+        border-radius: 9px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .profile-pic img {
+        display: none;
+    }
+    .header-nav {
+        display: none;
+    }
+    .hamburger span{
+        display: block;
+        margin:4px;
+        height: 9px;
+        width:60px;
+        background: #d3531a;
+        border-radius: 9px;
     }
 }
