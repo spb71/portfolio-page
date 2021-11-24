@@ -73,33 +73,23 @@ nav {
 
 .hero {
   background: url(../images/background.jpg) no-repeat center center;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 600px;
   position: relative;
   max-width: 100%;
-  margin-right: 0;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
-.hero .subtitle-box {
-  padding: 5px 20px;
+.hero img {
   position: absolute;
-  font-size: 90%;
-  margin-left: 25px;
-  right: 5px;
-  bottom: 5px;
-  border-radius: 10px 20px 10px 20px;
-  background: var(--color-mango);
-  height: 40px;
+  align-content: center;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  margin-left: 0;
 }
 
-.hero .subtitle-box h2 {
-  text-align: center;
-}
 main {
   height: 75vh;
   line-height: 1.5;
