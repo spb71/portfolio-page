@@ -106,7 +106,7 @@ main {
   flex-wrap: wrap;
 }
 
-#aboutMe {
+/* #aboutMe {
   margin-top: 25px;
   margin-bottom: 25px;
   padding-right: 10px;
@@ -124,7 +124,6 @@ main {
   margin-top: 25px;
   padding-right: 10px;
   height: 125px;
-}
 
 .carousel a img {
   width: 100%;
